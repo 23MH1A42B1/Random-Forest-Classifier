@@ -107,11 +107,12 @@ cd "c:/pdf/GPP/Random Forest Classifier"
 pip install -r requirements.txt && jupyter notebook notebooks/hyperparameter_optimization.ipynb
 ```
 
-### Data Acquisition Script (Optional)
+### Data Acquisition Script (Optional )
 If downloading the dataset manually:
 ```bash
 python -c "import os, urllib.request; os.makedirs('data', exist_ok=True); urllib.request.urlretrieve('https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv', 'data/winequality-red.csv')"
 ```
+
 
 ---
 
