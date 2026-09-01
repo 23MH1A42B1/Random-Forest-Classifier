@@ -107,16 +107,18 @@ cd "c:/pdf/GPP/Random Forest Classifier"
 pip install -r requirements.txt && jupyter notebook notebooks/hyperparameter_optimization.ipynb
 ```
 
-### Data Acquisition Script (Optional)
+### Data Acquisition Script (Optional )
 If downloading the dataset manually:
 ```bash
 python -c "import os, urllib.request; os.makedirs('data', exist_ok=True); urllib.request.urlretrieve('https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv', 'data/winequality-red.csv')"
 ```
+
 
 ---
 
 ## 📜 License & Acknowledgments
 
 This project is licensed under the **MIT License** - see the [`LICENSE`](file:///c:/pdf/GPP/Random%20Forest%20Classifier/LICENSE) file for details.
+
 
 Dataset sourced from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/wine+quality). Developed as part of the Scikit-Learn Model Optimization Program.
